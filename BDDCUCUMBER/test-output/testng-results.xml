@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="31621" started-at="2023-02-01T18:02:01Z" finished-at="2023-02-01T18:02:33Z">
+  <suite name="Default suite" duration-ms="21933" started-at="2023-02-02T23:45:59 IST" finished-at="2023-02-02T23:46:21 IST">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunnerAuto@769f71a9]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunnerAutoSecond@59906517]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="31621" started-at="2023-02-01T18:02:01Z" finished-at="2023-02-01T18:02:33Z">
-      <class name="TestRunnerAuto">
-        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunnerAuto@769f71a9]" name="setUpClass" is-config="true" duration-ms="2438" started-at="2023-02-01T23:32:01Z" finished-at="2023-02-01T23:32:04Z">
+    <test name="Default test" duration-ms="21933" started-at="2023-02-02T23:45:59 IST" finished-at="2023-02-02T23:46:21 IST">
+      <class name="TestRunnerAutoSecond">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunnerAutoSecond@59906517]" name="setUpClass" is-config="true" duration-ms="479" started-at="2023-02-02T23:45:59 IST" finished-at="2023-02-02T23:45:59 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@59429fac]]>
+                <![CDATA[org.testng.TestRunner@712ca57b]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunnerAuto@769f71a9]" name="runScenario" duration-ms="28471" started-at="2023-02-01T23:32:04Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-01T23:32:32Z">
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunnerAutoSecond@59906517]" name="runScenario" duration-ms="21352" started-at="2023-02-02T23:45:59 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-02T23:46:21 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Add one quantity from store"]]>
+                <![CDATA["using default payment option"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Add To Cart Test"]]>
+                <![CDATA["Place an order"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:TestRunnerAuto@769f71a9]" name="tearDownClass" is-config="true" duration-ms="659" started-at="2023-02-01T23:32:32Z" finished-at="2023-02-01T23:32:33Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:TestRunnerAutoSecond@59906517]" name="tearDownClass" is-config="true" duration-ms="31" started-at="2023-02-02T23:46:21 IST" finished-at="2023-02-02T23:46:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- TestRunnerAuto -->
+      </class> <!-- TestRunnerAutoSecond -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
